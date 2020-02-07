@@ -242,12 +242,32 @@
         "lines": [
           1,
           null,
+          null,
+          1,
+          null,
+          1,
           null
         ]
       },
       "/Users/zeke/turing/2module/classwork/make_it_work/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/zeke/turing/2module/classwork/make_it_work/spec/models/challenge_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          null,
           null
         ]
       },
@@ -344,8 +364,68 @@
           1,
           null
         ]
+      },
+      "/Users/zeke/turing/2module/classwork/make_it_work/spec/projects/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/zeke/turing/2module/classwork/make_it_work/app/controllers/contestants_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/zeke/turing/2module/classwork/make_it_work/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/zeke/turing/2module/classwork/make_it_work/app/controllers/projects_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1581094550
+    "timestamp": 1581097922
   }
 }
