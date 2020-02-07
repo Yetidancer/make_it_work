@@ -15,6 +15,12 @@ RSpec.describe "contestants index page", type: :feature do
 
       @project_3 = @furniture_challenge.projects.create(name: "Upholstery Tuxedo", material: "Couch")
       @project_4 = @furniture_challenge.projects.create(name: "Litfit", material: "Lamp")
+
+      @contestant_1.projects << @project_1
+      @contestant_1.projects << @project_2
+      @contestant_2.projects << @project_3
+      @contestant_2.projects << @project_4
+
     end
 
     it "can see all contestants names" do
@@ -26,7 +32,7 @@ RSpec.describe "contestants index page", type: :feature do
         expect(page).to have_content(@project_2.name)
       end
 
-      within "#contestant-#{@contestant_1.id}" do
+      within "#contestant-#{@contestant_2.id}" do
         expect(page).to have_content(@contestant_2.name)
         expect(page).to have_content(@project_3.name)
         expect(page).to have_content(@project_4.name)
