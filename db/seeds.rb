@@ -5,6 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+contestant_1 = Contestant.create(name: "Rufus Wainwright", age: 60, hometown: "Denver", years_of_experience: 10)
+contestant_2 = Contestant.create(name: "Madonna", age: 20, hometown: "Boston", years_of_experience: 90)
 
 
 recycled_material_challenge = Challenge.create(theme: "Recycled Material", project_budget: 1000)

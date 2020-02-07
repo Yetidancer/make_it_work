@@ -20,13 +20,13 @@ RSpec.describe "contestants index page", type: :feature do
     it "can see all contestants names" do
       visit "/contestants"
 
-      within "#contestant-#{contestant_1.id}" do
+      within "#contestant-#{@contestant_1.id}" do
         expect(page).to have_content(@contestant_1.name)
         expect(page).to have_content(@project_1.name)
         expect(page).to have_content(@project_2.name)
       end
 
-      within "#contestant-#{contestant_1.id}" do
+      within "#contestant-#{@contestant_1.id}" do
         expect(page).to have_content(@contestant_2.name)
         expect(page).to have_content(@project_3.name)
         expect(page).to have_content(@project_4.name)
